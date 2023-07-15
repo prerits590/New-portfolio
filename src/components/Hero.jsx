@@ -16,42 +16,42 @@ import {
 
 export default function Hero() {
   return (
-    <Container maxW={"100vw"} maxH={"100vh"} overflow={"hidden"} >
+    <Container maxW={"100vw"} overflow={"hidden"} pt={'3rem'}>
       <Stack
         align={"center"}
         spacing={{ base: 8, md: 10 }}
         py={{ base: 20, md: 28 }}
         direction={{ base: "column", md: "row" }}
       >
-        <Stack flex={1} spacing={{ base: 5, md: 10 }}>
-          <Text style={{fontSize:"52.4px", fontWeight:"800"}}>Hey I'm</Text>
-          <Text style={{fontSize:"54.9px" , fontWeight:"850"}}>Prerit Sharma</Text>
-          <Text style={{fontSize:"54.9px" , fontWeight:"850"}}>A React Developer.</Text>
-         
+        <Stack flex={1} spacing={{ base: 5, md: 5 }}>
+          <Text style={{ fontSize: "52px", fontWeight: "800" }}>Hey I'm</Text>
+
+          <span
+            style={{
+              fontSize: "54px",
+              fontWeight: "850",
+
+              background: "  linear-gradient(to right, #00f260, #0575e6)",
+
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            {" "}
+            Prerit Sharma
+          </span>
+
+          <Text style={{ fontSize: "54px", fontWeight: "850" }}>
+            A React Developer.
+          </Text>
+
           <Stack
             spacing={{ base: 4, sm: 6 }}
             direction={{ base: "column", sm: "row" }}
+            className="button-stack"
           >
-            <Button
-              rounded={"full"}
-              size={"lg"}
-              fontWeight={"normal"}
-              px={6}
-              colorScheme={"red"}
-              bg={"red.400"}
-              _hover={{ bg: "red.500" }}
-            >
-              Get started
-            </Button>
-            <Button
-              rounded={"full"}
-              size={"lg"}
-              fontWeight={"normal"}
-              px={6}
-              leftIcon={<PlayIcon h={4} w={4} color={"gray.300"} />}
-            >
-              How It Works
-            </Button>
+            <button class="button">Hover me</button>
+            <button class="button">Hover me</button>
           </Stack>
         </Stack>
         <Flex
