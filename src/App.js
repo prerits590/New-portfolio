@@ -1,3 +1,4 @@
+import { BrowserRouter, Router } from "react-router-dom";
 import "./App.css";
 import About from "./components/About";
 import Footer from "./components/Footer";
@@ -10,14 +11,15 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <div className="App">
-     
-      <NavBar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Footer />
-      <ParticlesJ />
+      <BrowserRouter>
+        <NavBar />
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Footer />
+        <ParticlesJ />
+      </BrowserRouter>
     </div>
   );
 }

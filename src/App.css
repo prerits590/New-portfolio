@@ -201,3 +201,55 @@ p {
   border-radius: 10px !important;
   border: 1px solid rgba(255, 255, 255, 0.18) !important;
 }
+.footer1 {
+  position: relative;
+  z-index: 99;
+  z-index: 999999;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  /* background: rgba(255, 255, 255, 0) !important; */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px) !important;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   background-image: url("./components/img/geometric-gradient-modern-color-abstract-background_103282-5861111111122222221new.png");
+   background-repeat:no-repeat ;
+
+   background-size: contain;
+   background-position: center;
+}
+
+.card1 {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.group {
+  position: relative;
+}
+
+.form .group input,
+.form .group textarea {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  width: 100%;
+  background-color: transparent;
+}

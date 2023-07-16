@@ -154,20 +154,7 @@ export default function Skills() {
             </Box>
             <Box className="col-lg-3 d-flex justify-content-center col-sm-6 pt-3">
               <Box className="card">
-                <Box className="card-content">
-                  <img
-                    src="https://avatars.githubusercontent.com/u/54212428?s=280&v=4"
-                    alt=""
-                  />
-
-                  <Text className="pb-3" color={"white"}>
-                    Chakra UI
-                  </Text>
-                </Box>
-              </Box>
-            </Box>
-            <Box className="col-lg-3 d-flex justify-content-center col-sm-6 pt-3">
-              <Box className="card">
+               
                 <Box className="card-content">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
@@ -176,6 +163,20 @@ export default function Skills() {
 
                   <Text className="pb-3" color={"white"}>
                     Firebase
+                  </Text>
+                </Box>
+              </Box>
+            </Box>
+            <Box className="col-lg-3 d-flex justify-content-center col-sm-6 pt-3">
+              <Box className="card">
+                <Box className="card-content">
+                  <img
+                    src="https://avatars.githubusercontent.com/u/54212428?s=280&v=4"
+                    alt=""
+                  />
+
+                  <Text className="pb-3" color={"white"}>
+                    Chakra UI
                   </Text>
                 </Box>
               </Box>

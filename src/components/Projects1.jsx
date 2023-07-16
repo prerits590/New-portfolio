@@ -1,6 +1,7 @@
-import { Box, Button, Text, background } from "@chakra-ui/react";
+import { Box, Button, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   return (
@@ -12,10 +13,7 @@ export default function Projects() {
         <Box className="row">
           <Box padding={"0"} className="col-lg-7 col-sm-12 ">
             <Box>
-              <img
-                src="https://www.danielcranney.com/_next/image?url=%2Fprojects%2Fsmylo.png&w=1920&q=75"
-                alt=""
-              />
+              <Image src={require("./img/airbnb.png")} />
             </Box>
           </Box>
           <Box border={"1px solid white"} className="col-lg-5 col-sm-12">
@@ -48,11 +46,23 @@ export default function Projects() {
                   fontSize={"30px"}
                   fontWeight={"700"}
                 >
-                  Fresh Harvests
+                  Airbnb Clone
                 </Text>
               </Box>
               <Box className=" icon-boxx">
                 <Box className=" icon-box-container">
+                  <Box className="icon-box">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                      alt=""
+                    />
+                  </Box>
+                  <Box className="icon-box">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+                      alt=""
+                    />
+                  </Box>
                   <Box className="icon-box">
                     <img
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -75,6 +85,12 @@ export default function Projects() {
                   <Box className="icon-box">
                     <img
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                      alt=""
+                    />
+                  </Box>
+                  <Box className="icon-box">
+                    <img
+                      src="https://avatars.githubusercontent.com/u/54212428?s=280&v=4"
                       alt=""
                     />
                   </Box>
@@ -97,10 +113,7 @@ export default function Projects() {
         <Box className="row">
           <Box padding={"0"} className="col-lg-7 col-sm-12 ">
             <Box>
-              <img
-                src="https://www.danielcranney.com/_next/image?url=%2Fprojects%2Fsmylo.png&w=1920&q=75"
-                alt=""
-              />
+              <Image src={require("./img/fresh-harvests.png")} />
             </Box>
           </Box>
           <Box border={"1px solid white"} className="col-lg-5 col-sm-12">
@@ -169,7 +182,11 @@ export default function Projects() {
                   Totam, dolorum.
                 </Box>
                 <Box className="py-3">
-                  <Button>
+                  <Button
+                    as={Link}
+                    to={"https://frolicking-meerkat-f3e8f5.netlify.app/"}
+                    className="live-btn"
+                  >
                     Live <FiArrowUpRight className="mx-1" />
                   </Button>
                 </Box>
@@ -182,10 +199,7 @@ export default function Projects() {
         <Box className="row">
           <Box padding={"0"} className="col-lg-7 col-sm-12 ">
             <Box>
-              <img
-                src="https://www.danielcranney.com/_next/image?url=%2Fprojects%2Fsmylo.png&w=1920&q=75"
-                alt=""
-              />
+              <Image src={require("./img/food-fusion.png")} />
             </Box>
           </Box>
           <Box border={"1px solid white"} className="col-lg-5 col-sm-12">
@@ -218,7 +232,7 @@ export default function Projects() {
                   fontSize={"30px"}
                   fontWeight={"700"}
                 >
-                  Fresh Harvests
+                  Food Fusion
                 </Text>
               </Box>
               <Box className=" icon-boxx">
@@ -254,7 +268,13 @@ export default function Projects() {
                   Totam, dolorum.
                 </Box>
                 <Box className="py-3">
-                  <Button className="live-btn">
+                  <Button
+                    as={Link}
+                    to={
+                      "https://64725ee06b5fe23834931b1b--exquisite-khapse-16af8c.netlify.app/"
+                    }
+                    className="live-btn"
+                  >
                     Live <FiArrowUpRight className="mx-1" />
                   </Button>
                 </Box>

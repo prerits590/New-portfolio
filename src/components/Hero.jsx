@@ -64,8 +64,8 @@ export default function Hero() {
               direction={{ base: "column", sm: "row" }}
               className="button-stack"
             >
-              <button class="button">Hover me</button>
-              <button class="button">Hover me</button>
+              <button class="button">Resume</button>
+              <button class="button">Contact Me</button>
             </Stack>
           </Stack>
           <Flex
