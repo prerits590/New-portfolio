@@ -9,6 +9,7 @@ import {
   useColorModeValue,
   Stack,
   useColorMode,
+  Image,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 
@@ -45,7 +46,17 @@ export default function Simple() {
             display={{ md: "none" }}
             onClick={isOpen ? onClose : onOpen}
           />
-          <Box>Logo</Box>
+         <Box w={'4%'}>
+         <Image
+                alt={"Hero Image"}
+                fit={"cover"}
+                align={"center"}
+                w={"100%"}
+                h={"100%"}
+                src={require("./img/collection-letter-p-monogram-logo-design-vector1.png")}
+                style={{ objectFit: "cover" }}
+              />
+         </Box>
 
           <Box className="d-flex align-item-center">
             {Links.map((link) => (

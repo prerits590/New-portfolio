@@ -189,3 +189,15 @@ p {
   height: 100%;
   z-index: -1;
 }
+.hero-img-box {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.glass-bg {
+  background: rgba(255, 255, 255, 0.15) !important;
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important; */
+  backdrop-filter: blur(9.5px) !important;
+  -webkit-backdrop-filter: blur(9.5px) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+}

@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <Box>
+    <Box position={"relative"} zIndex={"99"}>
       <Box className="py-3">
         <Box className="d-flex justify-content-center">
           <Text fontSize={"70px"}>Skills</Text>

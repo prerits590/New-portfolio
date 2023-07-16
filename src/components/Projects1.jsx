@@ -4,7 +4,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 export default function Projects() {
   return (
-    <Box className="pt-5">
+    <Box className="pt-5" position={"relative"} zIndex={"99"}>
       <Box className="d-flex justify-content-center p-4">
         <Text fontSize={"70px"}>Projects</Text>
       </Box>

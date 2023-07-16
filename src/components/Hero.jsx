@@ -18,7 +18,7 @@ import ParticlesJ from "./ParticlesJ";
 
 export default function Hero() {
   return (
-    <Box>
+    <Box position={"relative"} zIndex={"99"}>
       <Container
         maxW={"100vw"}
         overflow={"hidden"}
@@ -29,10 +29,10 @@ export default function Hero() {
           spacing={{ base: 8, md: 10 }}
           py={{ base: 20, md: 28 }}
           direction={{ base: "column", md: "row" }}
-          p={"2rem"}
+          p={"2.5rem"}
         >
           <Stack flex={1} spacing={{ base: 5, md: 5 }}>
-            <Text style={{ fontSize: "50px", fontWeight: "800" }}>Hey, I'm</Text>
+            <Text className="pt-3" style={{ fontSize: "50px", fontWeight: "800" }}>Hey, I'm</Text>
 
             <span
               style={{
@@ -78,10 +78,12 @@ export default function Hero() {
           >
             <Box
               position={"relative"}
-              height={"100%"}
-              width={"full"}
+              height={"60%"}
+              width={"80%"}
               overflow={"hidden"}
               marginLeft={"1rem"}
+              borderRadius={"20px"}
+              className="hero-img-box"
             >
               <Image
                 alt={"Hero Image"}
@@ -89,7 +91,7 @@ export default function Hero() {
                 align={"center"}
                 w={"100%"}
                 h={"100%"}
-                src={require("./img/programmer_v_023.png")}
+                src={require("./img/image_MvmaZO9o_1689488463561_raw.jpg")}
                 style={{ objectFit: "cover" }}
               />
             </Box>
