@@ -75,20 +75,20 @@ export default function Skills() {
 
         <Box className="container d-flex justify-content-center pt-4">
           <Box className="row d-flex justify-content-center">
-            <Box className="col-lg-3 d-flex justify-content-center col-sm-6 ">
+            <Box className="col-lg-3 d-flex justify-content-center col-sm-6 pt-4">
               <Box className="card">
                 <Box className="card-content">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                     alt=""
                   />
-                  <Text className="pb-3" color={"white"}>
+                  <Text className="pb-3 px-1" color={"white"}>
                     HTML
                   </Text>
                 </Box>
               </Box>
             </Box>
-            <Box className="col-lg-3 d-flex justify-content-center col-sm-6">
+            <Box className="col-lg-3 d-flex justify-content-center col-sm-6 pt-4">
               <Box className="card">
                 <Box className="card-content">
                   <img
@@ -101,7 +101,7 @@ export default function Skills() {
                 </Box>
               </Box>
             </Box>
-            <Box className="col-lg-3 d-flex justify-content-center col-sm-6">
+            <Box className="col-lg-3 d-flex justify-content-center col-sm-6 pt-4">
               <Box className="card">
                 <Box className="card-content">
                   <img
@@ -195,7 +195,6 @@ export default function Skills() {
             </Box>
           </Box>
         </Box>
-
       </Box>
     </Box>
   );

@@ -1,9 +1,10 @@
 import { Box, Button, Text, background } from "@chakra-ui/react";
 import React from "react";
+import { FiArrowUpRight } from "react-icons/fi";
 
 export default function Projects() {
   return (
-    <Box className="pt-5 border">
+    <Box className="pt-5">
       <Box className="d-flex justify-content-center p-4">
         <Text fontSize={"70px"}>Projects</Text>
       </Box>
@@ -26,12 +27,27 @@ export default function Projects() {
               h={"100%"}
             >
               <Box>
-                <Text className="box-text" fontSize={"30px"} fontWeight={"700"}>
+                <span
+                  className="box-text"
+                  style={{
+                    background:
+                      " linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6)",
+
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                  }}
+                >
                   Featured Project
-                </Text>
+                </span>
               </Box>
               <Box>
-                <Text className="box-text" fontSize={"30px"} fontWeight={"700"}>
+                <Text
+                  className="box-text1"
+                  fontSize={"30px"}
+                  fontWeight={"700"}
+                >
                   Fresh Harvests
                 </Text>
               </Box>
@@ -68,7 +84,9 @@ export default function Projects() {
                   Totam, dolorum.
                 </Box>
                 <Box className="py-3">
-                  <Button>Live</Button>
+                  <Button>
+                    Live <FiArrowUpRight className="mx-1" />
+                  </Button>
                 </Box>
               </Box>
             </Box>
@@ -94,12 +112,27 @@ export default function Projects() {
               h={"100%"}
             >
               <Box>
-                <Text className="box-text" fontSize={"30px"} fontWeight={"700"}>
+                <span
+                  className="box-text"
+                  style={{
+                    background:
+                      " linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6)",
+
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                  }}
+                >
                   Featured Project
-                </Text>
+                </span>
               </Box>
               <Box>
-                <Text className="box-text" fontSize={"30px"} fontWeight={"700"}>
+                <Text
+                  className="box-text1"
+                  fontSize={"30px"}
+                  fontWeight={"700"}
+                >
                   Fresh Harvests
                 </Text>
               </Box>
@@ -136,7 +169,9 @@ export default function Projects() {
                   Totam, dolorum.
                 </Box>
                 <Box className="py-3">
-                  <Button>Live</Button>
+                  <Button>
+                    Live <FiArrowUpRight className="mx-1" />
+                  </Button>
                 </Box>
               </Box>
             </Box>
@@ -162,12 +197,27 @@ export default function Projects() {
               h={"100%"}
             >
               <Box>
-                <Text className="box-text" fontSize={"30px"} fontWeight={"700"}>
+                <span
+                  className="box-text"
+                  style={{
+                    background:
+                      " linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6)",
+
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                  }}
+                >
                   Featured Project
-                </Text>
+                </span>
               </Box>
               <Box>
-                <Text className="box-text" fontSize={"30px"} fontWeight={"700"}>
+                <Text
+                  className="box-text1"
+                  fontSize={"30px"}
+                  fontWeight={"700"}
+                >
                   Fresh Harvests
                 </Text>
               </Box>
@@ -204,7 +254,9 @@ export default function Projects() {
                   Totam, dolorum.
                 </Box>
                 <Box className="py-3">
-                  <Button>Live</Button>
+                  <Button className="live-btn">
+                    Live <FiArrowUpRight className="mx-1" />
+                  </Button>
                 </Box>
               </Box>
             </Box>

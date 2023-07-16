@@ -161,7 +161,31 @@ p {
 .icon-box {
   width: 10%;
   margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .icon-box-container {
   display: flex;
+  margin-top: 1rem;
+}
+.box-text1 {
+  position: relative;
+}
+.box-text1::before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 10px;
+  left: 0;
+  bottom: -10px;
+
+  background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+}
+.particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
