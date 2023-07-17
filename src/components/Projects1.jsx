@@ -20,8 +20,8 @@ export default function Projects() {
           </Box>
         </Fade>
         <Box className="container p-5">
-          <Box className="row">
-            <Box padding={"0"} className="col-lg-7 col-sm-12 ">
+          <Box className="row project-shadow">
+            <Box padding={"0"} className="col-lg-7 col-sm-12">
               <Slide triggerOnce>
                 <Box height={"20rem"} className="project-img overflow-hidden">
                   <Image
@@ -40,7 +40,7 @@ export default function Projects() {
                   justifyContent={"space-evenly"}
                   w={"100%"}
                   h={"20rem"}
-                  border={"1px solid white"}
+                  border={"1px solid gray"}
                   className="p-3 glass-bg1"
                 >
                   <Box>
@@ -150,7 +150,7 @@ export default function Projects() {
                   justifyContent={"space-evenly"}
                   w={"100%"}
                   h={"20rem"}
-                  border={"1px solid white"}
+                  border={"1px solid gray"}
                   className="p-3 glass-bg1"
                 >
                   <Box>
@@ -246,7 +246,7 @@ export default function Projects() {
                   justifyContent={"space-evenly"}
                   w={"100%"}
                   h={"20rem"}
-                  border={"1px solid white"}
+                  border={"1px solid gray"}
                   className="p-3 glass-bg1"
                 >
                   <Box>

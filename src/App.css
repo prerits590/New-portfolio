@@ -2,11 +2,13 @@
 
 p{
   margin: 0 !important;
+  color: white !important;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   background-color: #1A202C !important;
+  color: white !important;
 }
 .card {
   position: relative;
