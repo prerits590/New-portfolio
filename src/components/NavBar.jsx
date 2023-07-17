@@ -8,7 +8,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { NavLink } from "react-router-dom";
 
 export default function Simple() {
@@ -30,7 +30,7 @@ export default function Simple() {
             className="d-flex justify-content-evenly"
             alignItems={"center"}
           >
-            <Box w={"8%"}>
+            <Box w={"10%"}>
               <Image
                 alt={"Logo Image"}
                 fit={"cover"}

@@ -92,10 +92,10 @@ export default function Footer() {
           borderTopWidth={1}
           borderStyle={"solid"}
           borderColor={useColorModeValue("gray.200", "gray.700")}
-          className="p-4"
+          className="p-3"
         >
-          <Container className="d-flex justify-content-center">
-            <Text>© 2023 Prerit Sharma. All rights reserved</Text>
+          <Container className="d-flex justify-content-center align-items-center">
+            <Text className="pb-1">© 2023 Prerit Sharma. All rights reserved</Text>
           </Container>
         </Box>
       </Box>
