@@ -95,7 +95,7 @@ export default function Footer() {
           className="p-3"
         >
           <Container className="d-flex justify-content-center align-items-center">
-            <Text className="pb-1">© 2023 Prerit Sharma. All rights reserved</Text>
+            <Text >© 2023 Prerit Sharma. All rights reserved</Text>
           </Container>
         </Box>
       </Box>
