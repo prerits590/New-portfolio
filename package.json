@@ -22,7 +22,8 @@
     "react-scroll": "^1.8.9",
     "tsparticles-slim": "^2.11.0",
     "typewriter-effect": "^2.20.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.7"
   },
   "scripts": {
     "start": "react-scripts start",
