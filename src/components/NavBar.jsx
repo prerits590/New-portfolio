@@ -1,44 +1,32 @@
 import { ReactNode } from "react";
 import {
   Box,
+  Flex,
+  Avatar,
   HStack,
-  Link,
   IconButton,
   Button,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuDivider,
   useDisclosure,
   useColorModeValue,
   Stack,
-  useColorMode,
   Image,
 } from "@chakra-ui/react";
-import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
-
-const Links = ["Home", "Projects", "Team"];
-
-const NavLink = ({ children }) => (
-  <Link
-    px={2}
-    py={1}
-    rounded={"md"}
-    color={"lightGray"}
-    _hover={{
-      textDecoration: "none",
-      bg: useColorModeValue("gray.200", "gray.700"),
-    }}
-    href={"#"}
-  >
-    {children}
-  </Link>
-);
+import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
+import { Link, animateScroll as scroll } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 export default function Simple() {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const { colorMode, toggleColorMode } = useColorMode();
 
   return (
     <>
-      <Box px={4} overflowX={"hidden"} className="navbar" width={"100%"}>
-        <Box className=" d-flex justify-content-around align-items-center" w={"100%"}>
+      <Box px={4} className="navbar">
+        <Flex h={16} alignItems={"center"}>
           <IconButton
             size={"md"}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
@@ -46,34 +34,60 @@ export default function Simple() {
             display={{ md: "none" }}
             onClick={isOpen ? onClose : onOpen}
           />
-         <Box w={'4%'}>
-         <Image
-                alt={"Hero Image"}
+          <HStack
+            spacing={8}
+            className="d-flex justify-content-evenly"
+            alignItems={"center"}
+          >
+            <Box w={"8%"}>
+              <Image
+                alt={"Logo Image"}
                 fit={"cover"}
                 align={"center"}
                 w={"100%"}
                 h={"100%"}
-                src={require("./img/collection-letter-p-monogram-logo-design-vector1.png")}
+                src={require("./img/logo.png")}
                 style={{ objectFit: "cover" }}
               />
-         </Box>
-
-          <Box className="d-flex align-item-center">
-            {Links.map((link) => (
-              <NavLink key={link}>{link}</NavLink>
-            ))}
-          </Box>
-          <Box className="p-3">
-            <button className="button1">Resume</button>
-          </Box>
-        </Box>
+            </Box>
+            <HStack
+              as={"nav"}
+              spacing={4}
+              display={{ base: "none", md: "flex" }}
+            >
+              <NavLink>
+                <Link to="Home" smooth={true} duration={500}>
+                  Home
+                </Link>
+              </NavLink>
+              <NavLink>
+                <Link to="About" smooth={true} duration={500}>
+                  About
+                </Link>
+              </NavLink>
+              <NavLink>
+                <Link to="Projects" smooth={true} duration={500}>
+                  Projects
+                </Link>
+              </NavLink>
+            </HStack>
+          </HStack>
+          <Flex alignItems={"center"}>
+            <Box>
+              <Box className="p-3">
+                <button className="button1">Resume</button>
+              </Box>
+            </Box>
+          </Flex>
+        </Flex>
 
         {isOpen ? (
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
-              {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
-              ))}
+              <NavLink>Home</NavLink>
+              <NavLink>About</NavLink>
+              <NavLink>Skills</NavLink>
+              <NavLink>Projects</NavLink>
             </Stack>
           </Box>
         ) : null}
