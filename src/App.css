@@ -3,28 +3,6 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
-h1 {
-  font-size: xx-large;
-}
-h2 {
-  font-size: x-large;
-}
-h3 {
-  font-size: larger;
-}
-h4 {
-  font-size: large;
-}
-h5 {
-  font-size: medium;
-}
-
-p {
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
 .card {
   position: relative;
   background: rgb(255, 0, 179);
@@ -118,7 +96,7 @@ p {
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .button1 {
-  padding: 0.5em 2em;
+  padding: 0.5em 1em;
   border: none;
   border-radius: 5px;
   font-weight: bold;
@@ -287,4 +265,6 @@ p {
   display: flex;
   align-items: center;
   cursor: pointer;
+  justify-content: center;
+  padding: 0.5rem 1rem;
 }

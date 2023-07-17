@@ -1,21 +1,6 @@
-import {
-  Container,
-  Stack,
-  Flex,
-  Box,
-  Heading,
-  Text,
-  Button,
-  Image,
-  Icon,
-  IconButton,
-  createIcon,
-  IconProps,
-  useColorModeValue,
-} from "@chakra-ui/react";
+import { Container, Stack, Flex, Box, Text, Image } from "@chakra-ui/react";
 import Typewriter from "typewriter-effect";
-import ParticlesJ from "./ParticlesJ";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 import { Link as ScrollLink } from "react-scroll";
 
 export default function Hero() {
@@ -79,7 +64,7 @@ export default function Hero() {
                     direction={{ base: "column", sm: "row" }}
                     className="button-stack py-4"
                   >
-                    <button class="button">Resume</button>
+                    <button className="button">Resume</button>
 
                     <ScrollLink
                       to="Contact"
@@ -87,7 +72,7 @@ export default function Hero() {
                       duration={600}
                       className="button1 contact-me"
                     >
-                     Contact Me
+                      Contact Me
                     </ScrollLink>
                   </Stack>
                 </Box>

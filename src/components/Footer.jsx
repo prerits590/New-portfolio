@@ -1,22 +1,12 @@
-import { ReactNode } from "react";
 import {
   Box,
   Container,
   Stack,
-  SimpleGrid,
   Text,
-  Link,
-  VisuallyHidden,
-  chakra,
   useColorModeValue,
 } from "@chakra-ui/react";
-import {
-  AiFillGift,
-  AiFillGithub,
-  AiFillMail,
-  AiFillPhone,
-} from "react-icons/ai";
-import { Fade, Slide } from "react-awesome-reveal";
+import { AiFillGithub, AiFillMail, AiFillPhone } from "react-icons/ai";
+import { Slide } from "react-awesome-reveal";
 export default function Footer() {
   return (
     <section>

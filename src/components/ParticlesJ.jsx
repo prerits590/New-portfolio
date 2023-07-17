@@ -1,21 +1,13 @@
 import { useCallback } from "react";
 import Particles from "react-particles";
-//import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
-import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
+import { loadSlim } from "tsparticles-slim";
 
 const ParticlesJ = () => {
   const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
-    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
-    //await loadFull(engine);
     await loadSlim(engine);
   }, []);
 
-  const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
-  }, []);
+  const particlesLoaded = useCallback(async (container) => {}, []);
 
   return (
     <Particles
@@ -49,19 +41,19 @@ const ParticlesJ = () => {
               height: 100,
             },
           },
-          opacity: { 
-              animation: { 
-                enable: true, 
-                minimumValue: 0.5, 
-                speed: 1.6, 
-                sync: false, 
-              }, 
-              random: { 
-                enable: true, 
-                minimumValue: 0.1, 
-              }, 
-              value: 1, 
-            }, 
+          opacity: {
+            animation: {
+              enable: true,
+              minimumValue: 0.5,
+              speed: 1.6,
+              sync: false,
+            },
+            random: {
+              enable: true,
+              minimumValue: 0.1,
+            },
+            value: 1,
+          },
           size: {
             value: 2,
             random: true,
@@ -79,20 +71,20 @@ const ParticlesJ = () => {
             opacity: 0.4,
             width: 1,
           },
-        //   move: {
-        //     enable: true,
-        //     speed: 0.2,
-        //     direction: "none",
-        //     random: true,
-        //     straight: false,
-        //     out_mode: "out",
-        //     bounce: false,
-        //     attract: {
-        //       enable: false,
-        //       rotateX: 600,
-        //       rotateY: 1200,
-        //     },
-        //   },
+          //   move: {
+          //     enable: true,
+          //     speed: 0.2,
+          //     direction: "none",
+          //     random: true,
+          //     straight: false,
+          //     out_mode: "out",
+          //     bounce: false,
+          //     attract: {
+          //       enable: false,
+          //       rotateX: 600,
+          //       rotateY: 1200,
+          //     },
+          //   },
         },
         interactivity: {
           detect_on: "canvas",

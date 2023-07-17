@@ -1,18 +1,9 @@
-import { ReactNode } from "react";
 import {
   Box,
   Flex,
-  Avatar,
   HStack,
   IconButton,
-  Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
   useDisclosure,
-  useColorModeValue,
   Stack,
   Image,
 } from "@chakra-ui/react";
@@ -84,10 +75,21 @@ export default function Simple() {
         {isOpen ? (
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
-              <NavLink>Home</NavLink>
-              <NavLink>About</NavLink>
-              <NavLink>Skills</NavLink>
-              <NavLink>Projects</NavLink>
+              <NavLink>
+                <Link to="Home" smooth={true} duration={500}>
+                  Home
+                </Link>
+              </NavLink>
+              <NavLink>
+                <Link to="About" smooth={true} duration={500}>
+                  About
+                </Link>
+              </NavLink>
+              <NavLink>
+                <Link to="Projects" smooth={true} duration={500}>
+                  Projects
+                </Link>
+              </NavLink>
             </Stack>
           </Box>
         ) : null}
