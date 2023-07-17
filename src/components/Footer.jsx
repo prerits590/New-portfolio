@@ -89,9 +89,7 @@ export default function Footer() {
         </Container>
 
         <Box
-          borderTopWidth={1}
-          borderStyle={"solid"}
-          borderColor={useColorModeValue("gray.200", "gray.700")}
+        borderTop={"1px solid gray"}
           className="p-3"
         >
           <Container className="d-flex justify-content-center align-items-center">

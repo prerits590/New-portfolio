@@ -3,6 +3,7 @@ import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { Fade, Slide } from "react-awesome-reveal";
+import { AiFillGithub, AiFillMail, AiFillPhone } from "react-icons/ai";
 export default function Projects() {
   return (
     <section>
@@ -115,11 +116,23 @@ export default function Projects() {
                       </Box>
                     </Box>
                     <Box className="">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Totam, dolorum.
+                      A solo project built on React with UI similar to origin
+                      website with custom Sign up/Log in, Admin panel to
+                      add/remove property using Firebase.
                     </Box>
                     <Box className="py-3">
-                      <Button>
+                      <Button
+                        as={Link}
+                        to={"https://github.com/prerits590/airbnb-clone.git"}
+                        className="live-btn mx-2"
+                      >
+                        <AiFillGithub fontSize={"2rem"} />
+                      </Button>
+                      <Button
+                        as={Link}
+                        to={"https://airbnb-clone-one-bay.vercel.app/"}
+                        className="live-btn mx-2"
+                      >
                         Live <FiArrowUpRight className="mx-1" />
                       </Button>
                     </Box>
@@ -207,14 +220,20 @@ export default function Projects() {
                       </Box>
                     </Box>
                     <Box className="">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Totam, dolorum.
+                      A solo project built using Bootstrap with add to cart
+                      functionality using JSON Server.
                     </Box>
                     <Box className="py-3">
                       <Button
                         as={Link}
+                        to={"https://github.com/prerits590/fresh-harvests.git"}
+                      >
+                        <AiFillGithub fontSize={"2rem"} />
+                      </Button>
+                      <Button
+                        as={Link}
                         to={"https://frolicking-meerkat-f3e8f5.netlify.app/"}
-                        className="live-btn"
+                        className="live-btn mx-2"
                       >
                         Live <FiArrowUpRight className="mx-1" />
                       </Button>
@@ -303,10 +322,16 @@ export default function Projects() {
                       </Box>
                     </Box>
                     <Box className="">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Totam, dolorum.
+                    A solo project built using Bootstrap.
                     </Box>
                     <Box className="py-3">
+                      <Button
+                        as={Link}
+                        to={"https://github.com/prerits590/food-fusion.git"}
+                        className="live-btn mx-2"
+                      >
+                        <AiFillGithub fontSize={"2rem"} />
+                      </Button>
                       <Button
                         as={Link}
                         to={

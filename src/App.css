@@ -275,3 +275,12 @@ body {
   justify-content: center;
   padding: 0.5rem 1rem;
 }
+.accordian-item:hover .accordian-text {
+  color: black !important;
+}
+.card1 input::placeholder{
+  color: lightgray !important;
+}
+.card1 textarea::placeholder{
+  color: lightgray !important;
+}

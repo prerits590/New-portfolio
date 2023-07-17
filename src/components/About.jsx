@@ -16,10 +16,16 @@ export default function About() {
   return (
     <section>
       <Box className="px-3 my-5" id="About">
-        <Box className="container px-4 py-4 glass-bg" position={"relative"} zIndex={"9"}>
+        <Box
+          className="container px-4 py-4 glass-bg"
+          position={"relative"}
+          zIndex={"9"}
+        >
           <Fade triggerOnce>
             <Box className="d-flex justify-content-center p-4 section-heading-box">
-              <Text className="section-heading" fontSize={"70px"}>About</Text>
+              <Text className="section-heading" fontSize={"70px"}>
+                About
+              </Text>
             </Box>
           </Fade>
           <Fade>
@@ -64,7 +70,7 @@ export default function About() {
             <Box className="row">
               <Box className="col-lg-6 col-sm-12 p-3">
                 <Slide direction="left" triggerOnce>
-                  <Box h={"22rem"} className="glass-bg ">
+                  <Box h={"100%"} className="glass-bg ">
                     <Flex
                       minH={"fit-content"}
                       align={"center"}
@@ -78,15 +84,16 @@ export default function About() {
                           maxW="lg"
                           rounded="lg"
                         >
-                          <AccordionItem>
+                          <AccordionItem >
                             <AccordionButton
                               display="flex"
                               alignItems="center"
                               justifyContent="space-between"
                               p={4}
-                              _hover={{ bg: "gray.100", color: "#212121" }}
+                              className="accordian-item"
+                              _hover={{ bg: "gray.100", color: "black" }}
                             >
-                              <Text fontSize="md">Where am i from?</Text>
+                              <Text className="accordian-text" fontSize="md">Where am i from?</Text>
                               <ChevronDownIcon fontSize="24px" />
                             </AccordionButton>
                             <AccordionPanel pb={4}>
@@ -102,9 +109,10 @@ export default function About() {
                               alignItems="center"
                               justifyContent="space-between"
                               p={4}
-                              _hover={{ bg: "gray.100", color: "#212121" }}
+                              _hover={{ bg: "gray.100", color: "black" }}
+                              className="accordian-item"
                             >
-                              <Text fontSize="md" textAlign={"left"}>
+                              <Text  className="accordian-text" fontSize="md" textAlign={"left"}>
                                 What's my favorite programming language?
                               </Text>
                               <ChevronDownIcon fontSize="24px" />
@@ -127,9 +135,14 @@ export default function About() {
                               alignItems="center"
                               justifyContent="space-between"
                               p={4}
-                              _hover={{ bg: "gray.100", color: "#212121" }}
+                              _hover={{ bg: "gray.100", color: "black" }}
+                              className="accordian-item"
                             >
-                              <Text fontSize="md" textAlign={"left"}>
+                              <Text
+                                fontSize="md"
+                                textAlign={"left"}
+                                className="accordian-text"
+                              >
                                 Where do i see myself in 5 years?
                               </Text>
                               <ChevronDownIcon fontSize="24px" />
@@ -155,7 +168,7 @@ export default function About() {
                 className="col-lg-6 col-sm-12 p-3"
               >
                 <Slide direction="right" triggerOnce>
-                  <Box height={"22rem"} className="row glass-bg">
+                  <Box minHeight={"22.3rem"} className="row glass-bg">
                     <Box className="col-6 d-flex justify-content-center align-items-center">
                       <Box className="p-2 ">
                         <FaPersonChalkboard fontSize={"500%"} />
