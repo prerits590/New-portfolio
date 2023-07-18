@@ -6,9 +6,10 @@ import { Link as ScrollLink } from "react-scroll";
 export default function Hero() {
   return (
     <section>
-      <Box position={"relative"} className="mb-5" zIndex={"99"} id="Home">
+      <Box position={"relative"} zIndex={"99"} id="Home">
         <Container
           maxW={"100vw"}
+          minHeight={"100vh"}
           overflow={"hidden"}
           className="hero-section pb-5"
         >
@@ -18,10 +19,11 @@ export default function Hero() {
             py={{ base: 20, md: 28 }}
             direction={{ base: "column", md: "row" }}
             p={"2.5rem"}
+            height="100%"
           >
             <Stack flex={1} spacing={{ base: 5, md: 5 }}>
               <Slide direction="left" triggerOnce>
-                <Box>
+                <Box className="">
                   <Text
                     className="pt-3"
                     style={{ fontSize: "50px", fontWeight: "800" }}
@@ -71,6 +73,7 @@ export default function Hero() {
                       smooth={true}
                       duration={600}
                       className="button1 contact-me"
+                      delay={100}
                     >
                       Contact Me
                     </ScrollLink>

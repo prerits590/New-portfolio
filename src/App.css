@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-p{
+p {
   margin: 0 !important;
   color: white !important;
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #1A202C !important;
+  background-color: #1a202c !important;
   color: white !important;
 }
 .card {
@@ -158,7 +158,7 @@ body {
 }
 .icon-box-container {
   display: flex;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 .box-text1 {
   position: relative;
@@ -247,9 +247,7 @@ body {
 .glass-bg1 {
   border-radius: 0px 10px 10px 0px !important;
 }
-.project-img {
-  border-radius: 10px 0px 0px 10px;
-}
+
 .section-heading-box {
   position: relative;
 }
@@ -273,14 +271,18 @@ body {
   align-items: center;
   cursor: pointer;
   justify-content: center;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
 }
 .accordian-item:hover .accordian-text {
   color: black !important;
 }
-.card1 input::placeholder{
+.card1 input::placeholder {
   color: lightgray !important;
 }
-.card1 textarea::placeholder{
+.card1 textarea::placeholder {
   color: lightgray !important;
+}
+.unknown {
+  color: #9afda9 !important;
+  font-weight: 700;
 }

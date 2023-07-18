@@ -9,14 +9,14 @@ export default function Skills() {
         <Box className="py-3">
           <Slide triggerOnce>
             <Box className="d-flex justify-content-center section-heading-box">
-              <Text className="section-heading" fontSize={"70px"}>
+              <Text className="section-heading" fontSize={["50px", "70px"]}>
                 Skills
               </Text>
             </Box>
           </Slide>
           <Slide direction="right" triggerOnce>
             <Box className="d-flex justify-content-center pt-4 pb-2 section-heading-box">
-              <Text className="section-heading" fontSize={"35px"}>
+              <Text className="section-heading" fontSize={["25px", "35px"]}>
                 Languages & Frameworks
               </Text>
             </Box>
@@ -133,7 +133,7 @@ export default function Skills() {
         <Box className="pt-5">
           <Slide triggerOnce>
             <Box className="d-flex justify-content-center py-3 section-heading-box">
-              <Text className="section-heading" fontSize={"35px"}>
+              <Text className="section-heading" fontSize={["25px", "35px"]}>
                 Technologies & Libraries
               </Text>
             </Box>

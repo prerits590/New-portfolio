@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar";
 import ParticlesJ from "./components/ParticlesJ";
 import Projects from "./components/Projects1";
 import Skills from "./components/Skills";
+import Quote from "./components/Quote";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Hero />
+        <Quote/>
         <About />
         <Skills />
         <Projects />

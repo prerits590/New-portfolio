@@ -47,17 +47,17 @@ export default function Simple() {
               display={{ base: "none", md: "flex" }}
             >
               <NavLink>
-                <Link to="Home" smooth={true} duration={500}>
+                <Link to="Home" smooth={true}  delay={100} duration={500}>
                   Home
                 </Link>
               </NavLink>
               <NavLink>
-                <Link to="About" smooth={true} duration={500}>
+                <Link to="About" smooth={true}  delay={100} duration={500}>
                   About
                 </Link>
               </NavLink>
               <NavLink>
-                <Link to="Projects" smooth={true} duration={500}>
+                <Link to="Projects" smooth={true}  delay={100} duration={500}>
                   Projects
                 </Link>
               </NavLink>

@@ -3,7 +3,7 @@ import {
   Container,
   Stack,
   Text,
-  useColorModeValue,
+
 } from "@chakra-ui/react";
 import { AiFillGithub, AiFillMail, AiFillPhone } from "react-icons/ai";
 import { Slide } from "react-awesome-reveal";
@@ -16,11 +16,12 @@ export default function Footer() {
             <Box className="col-lg-6 d-flex justify-content-center align-items-center flex-column">
               <Slide triggerOnce>
                 <Box
-                  height={"25rem"}
+                  minH={"25rem"}
+                  minW={"20rem"}
                   className="glass-bg py-3 px-5 d-flex justify-content-center flex-column"
                 >
                   <Box className="d-flex justify-content-center  " w={"100%"}>
-                    <Text fontSize={"42px"} fontWeight={"600"}>
+                    <Text fontSize={["30px", "40px"]} fontWeight={"600"}>
                       Get in Touch
                     </Text>
                   </Box>
@@ -60,23 +61,24 @@ export default function Footer() {
             <Box className="col-lg-6 d-flex justify-content-center py-5">
               <Slide triggerOnce direction="right">
                 <Box
-                  h={"25rem"}
+                  minH={"25rem"}
+                  minW={"20rem"}
                   w={"fit-content"}
-                  className="border glass-bg p-5 d-flex justify-content-evenly align-items-start flex-column"
+                  className="container glass-bg py-3 px-1 d-flex justify-content-evenly align-items-start flex-column"
                 >
-                  <Box className="d-flex align-items-center">
+                  <Box className="d-flex align-items-center px-2">
                     <AiFillGithub fontSize={"40px"} className="mx-2" />
                     <Text fontSize={"20px"} fontWeight={"500"}>
                       prerits590
                     </Text>
                   </Box>
-                  <Box className="d-flex align-items-center">
+                  <Box className="d-flex align-items-center px-2">
                     <AiFillPhone fontSize={"40px"} className="mx-2" />
                     <Text fontSize={"20px"} fontWeight={"500"}>
                       8979384648
                     </Text>
                   </Box>
-                  <Box className="d-flex align-items-center">
+                  <Box className="d-flex align-items-center px-2">
                     <AiFillMail fontSize={"40px"} className="mx-2" />
                     <Text fontSize={"20px"} fontWeight={"500"}>
                       prerits590@gmail.com
@@ -88,12 +90,9 @@ export default function Footer() {
           </Box>
         </Container>
 
-        <Box
-        borderTop={"1px solid gray"}
-          className="p-3"
-        >
+        <Box borderTop={"1px solid gray"} className="p-3">
           <Container className="d-flex justify-content-center align-items-center">
-            <Text >© 2023 Prerit Sharma. All rights reserved</Text>
+            <Text>© 2023 Prerit Sharma. All rights reserved</Text>
           </Container>
         </Box>
       </Box>
