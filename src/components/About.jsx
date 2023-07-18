@@ -16,7 +16,7 @@ import { Fade, Slide } from "react-awesome-reveal";
 export default function About() {
   return (
     <section>
-      <Box className="px-3 py-5 my-5 d-flex justify-content-center flex-column" id="About">
+      <Box className="px-3 pt-5 my-5 d-flex justify-content-center flex-column" id="About">
         <Box
           className="container px-4 py-4 glass-bg"
           position={"relative"}

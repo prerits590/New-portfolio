@@ -5,7 +5,7 @@ import { Fade, Slide } from "react-awesome-reveal";
 export default function Skills() {
   return (
     <section>
-      <Box position={"relative"} className="pb-5" zIndex={"99"}>
+      <Box position={"relative"} className="pb-5 mb-3" zIndex={"99"}>
         <Box className="py-3">
           <Slide triggerOnce>
             <Box className="d-flex justify-content-center section-heading-box">

@@ -7,15 +7,15 @@ import { BiLinkExternal } from "react-icons/bi";
 export default function Projects() {
   return (
     <section>
-      <Box className="container">
+      <Box className="container pt-5">
         <Box
-          className="mt-5 glass-bg"
+          className="mt- glass-bg"
           position={"relative"}
           zIndex={"99"}
           id="Projects"
         >
           <Fade triggerOnce>
-            <Box className="d-flex pt-5 justify-content-center p-4 section-heading-box">
+            <Box className="d-flex py-4 justify-content-center p-4 section-heading-box">
               <Text className="section-heading" fontSize={"70px"}>
                 Projects
               </Text>
