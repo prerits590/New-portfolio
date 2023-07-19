@@ -47,11 +47,12 @@ export default function About() {
                     className="col-lg-3 col-sm-12 d-flex justify-content-center pt-4"
                     overflow={"hidden"}
                   >
-                    <Box width={"100%"}>
+                    <Box width={"100%"} className="d-flex justify-content-center">
                     <Image
+                    w={["50%","50%","100%"]}
                       style={{
                         objectFit: "contain",
-                        width: "100%",
+                       
                         borderRadius: "20px",
                       }}
                       src={require("./img/pic.png")}

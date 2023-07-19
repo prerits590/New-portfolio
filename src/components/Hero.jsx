@@ -26,14 +26,16 @@ export default function Hero() {
                 <Box className="">
                   <Text
                     className="pt-3"
-                    style={{ fontSize: "50px", fontWeight: "800" }}
+                    fontSize={["40px", "40px", "45px"]}
+                    fontWeight={"800"}
+                    // style={{ fontSize: "50px", fontWeight: "800" }}
                   >
                     Hey, I'm
                   </Text>
 
                   <span
                     style={{
-                      fontSize: "50px",
+                      fontSize: "45px",
                       fontWeight: "850",
 
                       background:
@@ -47,7 +49,7 @@ export default function Hero() {
                     Prerit Sharma
                   </span>
 
-                  <Text style={{ fontSize: "50px", fontWeight: "850" }}>
+                  <Text fontSize={["40px", "40px", "45px"]} fontWeight={"800"}>
                     <Typewriter
                       options={{
                         strings: [
