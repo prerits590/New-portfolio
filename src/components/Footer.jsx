@@ -1,10 +1,4 @@
-import {
-  Box,
-  Container,
-  Stack,
-  Text,
-
-} from "@chakra-ui/react";
+import { Box, Container, Stack, Text } from "@chakra-ui/react";
 import { AiFillGithub, AiFillMail, AiFillPhone } from "react-icons/ai";
 import { Slide } from "react-awesome-reveal";
 export default function Footer() {

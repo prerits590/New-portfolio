@@ -35,11 +35,7 @@ export default function About() {
                 <Box className="row d-flex justify-content-center align-items-center ">
                   <Box className="col-lg-9 col-sm-12">
                     <Text fontSize={["18px","24px"]} textAlign={"center"}>
-                      A passionate React Developer with strong problem-solving
-                      abilities, proficient in React Js, Firebase, Bootstrap and
-                      Chakra Ui, keen to learn new technologies and frameworks.
-                      Looking forward to start career in a reputed firm driven
-                      by technology.
+                    A passionate Full Stack Web  Developer with strong problem-solving abilities, proficient in React Js, Mongo DB, Express Js and Next Js, keen to learn new technologies and frameworks. Looking forward to start career in a reputed firm driven by technology.
                     </Text>
                   </Box>
 

@@ -3,11 +3,6 @@ import React from "react";
 import { Fade, Slide } from "react-awesome-reveal";
 
 export default function Skills() {
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
-  />;
-
   return (
     <section>
       <Box position={"relative"} className="pb-5 mb-3" zIndex={"99"}>
@@ -55,24 +50,6 @@ export default function Skills() {
                   <Box w={["60%", "50%"]} className="card">
                     <Box className="card-content">
                       <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"
-                        alt=""
-                      />
-
-                      <Text className="pb-3" color={"white"}>
-                        Next.js
-                      </Text>
-                    </Box>
-                  </Box>
-                </Box>
-                <Box
-                  w={["50%", "50%", "25%"]}
-                  p={"0px"}
-                  className=" col-lg-3 d-flex justify-content-center col-md-6 col-sm-12 pt-4"
-                >
-                  <Box w={["60%", "50%"]} className="card">
-                    <Box className="card-content">
-                      <img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
                         alt=""
                       />
@@ -91,12 +68,30 @@ export default function Skills() {
                   <Box w={["60%", "50%"]} className="card">
                     <Box className="card-content">
                       <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
                         alt=""
                       />
 
                       <Text className="pb-3" color={"white"}>
-                        Express.js
+                        Javascript
+                      </Text>
+                    </Box>
+                  </Box>
+                </Box>
+                <Box
+                  w={["50%", "50%", "25%"]}
+                  p={"0px"}
+                  className=" col-lg-3 d-flex justify-content-center col-md-6 col-sm-12 pt-4"
+                >
+                  <Box w={["60%", "50%"]} className="card">
+                    <Box className="card-content">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                        alt=""
+                      />
+
+                      <Text className="pb-3" color={"white"}>
+                        CSS
                       </Text>
                     </Box>
                   </Box>
@@ -116,11 +111,11 @@ export default function Skills() {
                   <Box w={["60%", "50%"]} className="card">
                     <Box className="card-content">
                       <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                         alt=""
                       />
                       <Text className="pb-3 px-1" color={"white"}>
-                        Mongo DB
+                        HTML
                       </Text>
                     </Box>
                   </Box>
@@ -133,7 +128,7 @@ export default function Skills() {
                   <Box w={["60%", "50%"]} className="card">
                     <Box className="card-content">
                       <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
                         alt=""
                       />
                       <Text
@@ -175,27 +170,7 @@ export default function Skills() {
             <Fade triggerOnce delay={"20"}>
               <Box className="row d-flex justify-content-center">
                 <Box
-                  p={"0px"}
-                  className=" col-lg-3 d-flex justify-content-center  col-sm-6 pt-4"
-                >
-                  <Box w={["30%", "50%", "75%"]} className="card">
-                    <Box className="card-content">
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                        alt=""
-                      />
-                      <Text
-                        className="pb-3 px-1"
-                        fontSize={["80%", "80%", "100%"]}
-                        color={"white"}
-                      >
-                        Javascript
-                      </Text>
-                    </Box>
-                  </Box>
-                </Box>
-                <Box
-                  w={["30%", "50%", "37%"]}
+                 
                   p={"0px"}
                   className=" col-lg-3 d-flex justify-content-center  col-sm-6 pt-4"
                 >
@@ -205,12 +180,29 @@ export default function Skills() {
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                         alt=""
                       />
+                      <Text className="pb-3 px-1" color={"white"}>
+                        HTML
+                      </Text>
+                    </Box>
+                  </Box>
+                </Box>
+                <Box
+                  w={["50%", "50%", "25%"]}
+                  p={"0px"}
+                  className=" col-lg-3 d-flex justify-content-center  col-sm-6 pt-4"
+                >
+                  <Box w={["60%", "50%"]} className="card">
+                    <Box className="card-content">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+                        alt=""
+                      />
                       <Text
                         className="pb-3 px-1"
                         fontSize={["80%", "80%", "100%"]}
                         color={"white"}
                       >
-                       HTML5
+                        Tailwind CSS
                       </Text>
                     </Box>
                   </Box>

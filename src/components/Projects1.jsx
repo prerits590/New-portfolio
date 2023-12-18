@@ -1,7 +1,7 @@
 import { Box, Button, Icon, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import { Link } from "react-router-dom";
-import { Fade, } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import { AiFillGithub } from "react-icons/ai";
 import { BiLinkExternal } from "react-icons/bi";
 export default function Projects() {
@@ -9,7 +9,7 @@ export default function Projects() {
     <section>
       <Box className="container pt-5">
         <Box
-          className="mt- glass-bg"
+          className="mt- glass-bg px-3"
           position={"relative"}
           zIndex={"99"}
           id="Projects"
@@ -21,7 +21,7 @@ export default function Projects() {
               </Text>
             </Box>
           </Fade>
-          <Box className="container px-5 py-3">
+          <Box className="container px-5 py-3 border my-3 project-card">
             <Box className="row">
               <Box padding={"0px"} className=" col-lg-7  col-sm-12">
                 <Box>
@@ -149,7 +149,7 @@ export default function Projects() {
               </Box>
             </Box>
           </Box>
-          <Box className="container px-5 py-3">
+          <Box className="container px-5 py-3 border my-3 project-card">
             <Box className="row">
               <Box padding={"0px"} className=" col-lg-7  col-sm-12">
                 <Box>
@@ -258,7 +258,7 @@ export default function Projects() {
               </Box>
             </Box>
           </Box>
-          <Box className="container px-5 py-3">
+          <Box className="container px-5 py-3 border my-3 project-card">
             <Box className="row">
               <Box padding={"0px"} className=" col-lg-7  col-sm-12">
                 <Box>

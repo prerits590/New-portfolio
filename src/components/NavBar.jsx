@@ -16,7 +16,7 @@ export default function Simple() {
 
   return (
     <>
-      <Box px={4} className="navbar">
+      <Box px={4} className="navbar glass-bg-2">
         <Flex h={16} alignItems={"center"}>
           <IconButton
             size={"md"}

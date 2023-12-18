@@ -10,6 +10,7 @@ body {
   background-color: #1a202c !important;
   color: white !important;
 }
+
 .card {
   position: relative;
   background: rgb(255, 0, 179);
@@ -38,6 +39,7 @@ body {
 .card:hover {
   filter: drop-shadow(0px 0px 30px rgb(9, 137, 196));
 }
+
 .card-content {
   width: fit-content;
   z-index: 99;
@@ -49,6 +51,7 @@ body {
   padding: 1rem;
   width: 100%;
 }
+
 .button {
   padding: 1em 2em;
   border: none;
@@ -88,6 +91,7 @@ body {
 .button:hover::before {
   width: 250%;
 }
+
 .navbar {
   position: fixed;
   display: flex;
@@ -95,13 +99,8 @@ body {
   width: 100%;
   z-index: 99999;
   padding: 0 !important;
-  border-radius: 0 !important;
-  background: rgba(255, 255, 255, 0) !important;
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
 .button1 {
   padding: 0.5em 1em;
   border: none;
@@ -147,22 +146,27 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .icon-box img {
   width: 100%;
 }
+
 .icon-box {
   width: 10%;
   margin-right: 0.5rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+
 .icon-box-container {
   display: flex;
   /* margin-top: 1rem; */
 }
+
 .box-text1 {
   position: relative;
 }
+
 .box-text1::before {
   content: "";
   position: absolute;
@@ -173,6 +177,7 @@ body {
 
   background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
 }
+
 .particles {
   position: fixed;
   top: 0;
@@ -181,18 +186,20 @@ body {
   height: 100%;
   z-index: -1;
 }
+
 .hero-img-box {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
-.glass-bg {
+
+/* .glass-bg {
   background: rgba(255, 255, 255, 0.15) !important;
-  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important; */
   backdrop-filter: blur(9.5px) !important;
   -webkit-backdrop-filter: blur(9.5px) !important;
   border-radius: 10px !important;
   border: 1px solid rgba(255, 255, 255, 0.18) !important;
-}
+} */
+
 .footer1 {
   position: relative;
   z-index: 99;
@@ -244,6 +251,7 @@ body {
   width: 100%;
   background-color: transparent;
 }
+
 .glass-bg1 {
   border-radius: 0px 10px 10px 0px !important;
 }
@@ -256,6 +264,7 @@ body {
   position: relative;
   display: inline-block;
 }
+
 .section-heading::after {
   content: "";
   position: absolute;
@@ -273,16 +282,53 @@ body {
   justify-content: center;
   padding: 1rem 1rem;
 }
+
 .accordian-item:hover .accordian-text {
   color: black !important;
 }
+
 .card1 input::placeholder {
   color: lightgray !important;
 }
+
 .card1 textarea::placeholder {
   color: lightgray !important;
 }
+
 .unknown {
   color: #9afda9 !important;
   font-weight: 700;
+}
+
+.glass-bg {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 5px;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+
+  box-shadow: 0px 0px 20px 1px #54e3ebe2;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+
+}
+
+.glass-bg-2 {
+  background: rgba(46, 57, 112, 0.30);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 5px;
 }
