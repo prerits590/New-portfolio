@@ -47,17 +47,35 @@ export default function Simple() {
               display={{ base: "none", md: "flex" }}
             >
               <NavLink>
-                <Link to="Home" smooth={true}  delay={100} duration={500}>
+                <Link
+                  className="px-2 py-1 btn-hover"
+                  to="Home"
+                  smooth={true}
+                  delay={100}
+                  duration={500}
+                >
                   Home
                 </Link>
               </NavLink>
               <NavLink>
-                <Link to="About" smooth={true}  delay={100} duration={500}>
+                <Link
+                  to="About"
+                  className="px-2 py-1 btn-hover"
+                  smooth={true}
+                  delay={100}
+                  duration={500}
+                >
                   About
                 </Link>
               </NavLink>
               <NavLink>
-                <Link to="Projects" smooth={true}  delay={100} duration={500}>
+                <Link
+                  to="Projects"
+                  className="px-2 py-1 btn-hover"
+                  smooth={true}
+                  delay={100}
+                  duration={500}
+                >
                   Projects
                 </Link>
               </NavLink>

@@ -234,7 +234,7 @@ export default function Projects() {
                       <Button
                         as={Link}
                         to={"https://github.com/prerits590/fresh-harvests.git"}
-                        className="py-1"
+                        className="py-1 btn-hover-1"
                         h={"fit-content"}
                       >
                         <Icon fontSize={["1rem", "1.5rem"]} as={AiFillGithub} />

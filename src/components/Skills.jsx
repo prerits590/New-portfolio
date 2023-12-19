@@ -28,11 +28,11 @@ export default function Skills() {
           </Slide>
           <Box className="container d-flex justify-content-center pt-3">
             <Fade>
-              <Box className="row">
+              <Box className="row  flex justify-content-center">
                 <Box
-                  w={["50%", "50%", "25%"]}
+                  w={["50%", "50%", "23%"]}
                   p={"0px"}
-                  className=" col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center pt-4"
+                  className=" col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center pt-4 "
                 >
                   <Box w={["60%", "50%"]} className="card">
                     <Box className="card-content">
@@ -48,7 +48,7 @@ export default function Skills() {
                   </Box>
                 </Box>
                 <Box
-                  w={["50%", "50%", "25%"]}
+                  w={["50%", "50%", "23%"]}
                   p={"0px"}
                   className=" col-lg-3 d-flex justify-content-center col-md-6 col-sm-12   pt-4"
                 >
@@ -66,9 +66,9 @@ export default function Skills() {
                   </Box>
                 </Box>
                 <Box
-                  w={["50%", "50%", "25%"]}
+                  w={["50%", "50%", "23%"]}
                   p={"0px"}
-                  className=" col-lg-3 d-flex justify-content-center col-md-6 col-sm-12 pt-4"
+                  className=" col-lg-3 d-flex justify-content-center col-md-6 col-sm-12  pt-4"
                 >
                   <Box w={["60%", "50%"]} className="card">
                     <Box className="card-content">
@@ -84,9 +84,9 @@ export default function Skills() {
                   </Box>
                 </Box>
                 <Box
-                  w={["50%", "50%", "25%"]}
+                  w={["50%", "50%", "23%"]}
                   p={"0px"}
-                  className=" col-lg-3 d-flex justify-content-center col-md-6 col-sm-12 pt-4"
+                  className=" col-lg-3 d-flex justify-content-center col-md-6 col-sm-12  pt-4"
                 >
                   <Box w={["60%", "50%"]} className="card">
                     <Box className="card-content">
@@ -175,10 +175,11 @@ export default function Skills() {
             <Fade triggerOnce delay={"20"}>
               <Box className="row d-flex justify-content-center">
                 <Box
+                  w={["50%", "50%", "37%"]}
                   p={"0px"}
                   className=" col-lg-3 d-flex justify-content-center  col-sm-6 pt-4"
                 >
-                  <Box w={["30%", "50%", "75%"]} className="card">
+                  <Box w={["60%", "50%"]} className="card">
                     <Box className="card-content">
                       <img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -195,7 +196,7 @@ export default function Skills() {
                   </Box>
                 </Box>
                 <Box
-                  w={["30%", "50%", "37%"]}
+                  w={["50%", "50%", "37%"]}
                   p={"0px"}
                   className=" col-lg-3 d-flex justify-content-center  col-sm-6 pt-4"
                 >
@@ -210,7 +211,7 @@ export default function Skills() {
                         fontSize={["80%", "80%", "100%"]}
                         color={"white"}
                       >
-                       HTML5
+                        HTML5
                       </Text>
                     </Box>
                   </Box>

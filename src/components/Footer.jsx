@@ -1,5 +1,6 @@
 import { Box, Container, Stack, Text } from "@chakra-ui/react";
 import { AiFillGithub, AiFillMail, AiFillPhone } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 export default function Footer() {
   return (
@@ -76,6 +77,12 @@ export default function Footer() {
                     <AiFillMail fontSize={"40px"} className="mx-2" />
                     <Text fontSize={"20px"} fontWeight={"500"}>
                       prerits590@gmail.com
+                    </Text>
+                  </Box>
+                  <Box className="d-flex align-items-center px-2">
+                    <FaLinkedin fontSize={"40px"} className="mx-2" />
+                    <Text fontSize={"20px"} fontWeight={"500"}>
+                      prerits590
                     </Text>
                   </Box>
                 </Box>
