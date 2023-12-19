@@ -45,7 +45,7 @@ export default function About() {
                   >
                     <Box width={"100%"} className="d-flex justify-content-center">
                     <Image
-                    w={["50%","50%","100%"]}
+                    w={["50%","50%","80%"]}
                       style={{
                         objectFit: "contain",
                        
